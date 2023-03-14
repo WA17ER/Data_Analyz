@@ -47,6 +47,6 @@ for learning_rate in np.linspace(0.05, 0.01, 50):
         alpha_dict={'MSE':list_mse__err, 'MAE':list_mae_err, 'n_iter':len(list_mae_err)}
     print(f"Альфа {learning_rate}, кол-во итераций {alpha_dict['n_iter']}, достигнутая MSE {min(alpha_dict['MSE'][1:])},  достигнутая MAE  {min(alpha_dict['MAE'])}")
 
-# Лучше всего справлется модель со скоростью 0,005 получает минимальную ошибку  и наименьшее кол-во итераций
+# Лучше всего справлется модель со скоростью 0.048 получает минимальную ошибку  
 
 
